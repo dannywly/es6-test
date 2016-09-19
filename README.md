@@ -1,2 +1,3 @@
-# es6-test
-test new feature of es6
+# ES6-test
+Test new feature of ES6.
+

@@ -1,0 +1,39 @@
+{
+  "name": "es6-test",
+  "version": "1.0.0",
+  "description": "test new featrues of es6",
+  "main": "index.js",
+  "dependencies": {
+    "es-checker": "^1.4.0",
+    "grunt-babel": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannywly/es6-test.git"
+  },
+  "keywords": [
+    "Es6"
+  ],
+  "author": "Danny Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannywly/es6-test/issues"
+  },
+  "homepage": "https://github.com/dannywly/es6-test#readme"
+}

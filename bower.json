@@ -1,0 +1,29 @@
+{
+  "name": "ES6-test",
+  "description": "Test ES6 new features",
+  "main": "index.js",
+  "authors": [
+    "Danny Wang"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Es6"
+  ],
+  "homepage": "https://github.com/dannywly/es6-test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/vendor/bower/"
+  ],
+  "dependencies": {
+    "jquery": "3.0.0",
+    "requirejs": "2.1.15"
+  },
+  "private": true,
+  "devDependencies": {
+    "echarts": "^3.2.3"
+  }
+}
