@@ -6,9 +6,8 @@ module.exports = {
     presets: ['es2015']
   },
   files: {
-    // "src/build/compiled.js": "src/features/**/let.js"
     expand: true,
-    cwd: 'src/',
+    cwd: '<%= root%>',
     src: ['features/**/*.js'],
     dest: "<%= buildDir%>",
     extDot: 'first',

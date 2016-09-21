@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     configPath: require('path').join(process.cwd(), 'grunt'),
 
     // auto grunt.initConfig
-    init: true,
+    // init: true,
 
     // data passed into config.  Can use with <%= test %>
     data: globalData,
